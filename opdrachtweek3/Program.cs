@@ -14,7 +14,7 @@ namespace opdrachtweek3
             int i;
             int multiplicand = 7;
             
-            // Een array is meestal sneller dan een list meestal
+            // Een array is meestal sneller dan een list
             // We maken een nieuwe Array
             int[] arrayNumbers = new int[11];
             //int numberToAdd = 1;
