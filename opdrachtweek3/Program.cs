@@ -109,6 +109,8 @@ namespace opdrachtweek3
             // We write a break
             Console.WriteLine();
 
+            Console.WriteLine("Hello world!");
+
             // Resultaat moet opgeslagen worden in 3 verschillende datacollecties
             // Als alle elementen opgeslagen zijn in de datacollecties dien je elke datacollectie te overlopen en elk opgeslagen element af te drukken in de console.  
         }

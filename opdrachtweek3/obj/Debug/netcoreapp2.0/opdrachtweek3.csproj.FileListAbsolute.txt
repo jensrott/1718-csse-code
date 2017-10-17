@@ -8,3 +8,13 @@ D:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\op
 D:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.AssemblyInfo.cs
 D:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.dll
 D:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.pdb
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\bin\Debug\netcoreapp2.0\opdrachtweek3.deps.json
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\bin\Debug\netcoreapp2.0\opdrachtweek3.runtimeconfig.json
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\bin\Debug\netcoreapp2.0\opdrachtweek3.runtimeconfig.dev.json
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\bin\Debug\netcoreapp2.0\opdrachtweek3.dll
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\bin\Debug\netcoreapp2.0\opdrachtweek3.pdb
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.csproj.CoreCompileInputs.cache
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.AssemblyInfoInputs.cache
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.AssemblyInfo.cs
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.dll
+C:\School\CSSE\oefening1\1718-csse-code\opdrachtweek3\obj\Debug\netcoreapp2.0\opdrachtweek3.pdb
