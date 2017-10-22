@@ -5,78 +5,69 @@ namespace opdrachtweek4
     class Program
     {
 
-
         // In de main worden onze methods gecalled geef willekeurig getal en uitvoeren fibonacci
         static void Main(string[] args)
         {
 
-            geefWilleKeurigGetal();
-            uitvoerenFibonacci();
+           geefWilleKeurigGetal();
+           Console.WriteLine();
+           uitvoerenFibonacci();
             
         } 
 
         /* Oefening 1 */
         private static void geefWilleKeurigGetal() {
+        
 
-            // Het nummer dat we zelf hebben gekozen.
-            int number;
+                Console.WriteLine("Vul een getal in: ");
+                int number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("De getal dat je invulde was {0}", number);
 
-            // Boolean noPrimes.
-            bool boolPrimeNumber = false;
+                Console.WriteLine();
 
-            // We krijgen 10 trials.
-            int maximTrials = 10;
+                // We loopen eerst door alle getallen
+                for(int i = 0; i < number; i++) {
 
-            // Vraag voor user input.
-            Console.WriteLine("Enter a number between 0 en 100: ");
-            number = Convert.ToInt32(Console.ReadLine());
+                    if (i % 2 == 0) {
+                        // Uitzondering voor het getal 2
+                        if (i == 2) {
+                                Console.WriteLine(i + " is een priemgetal");
+                        } else { 
+                                Console.WriteLine(i + " is geen priemgetal.");
+                        } 
 
-            // Als het nummer groter is dan 100, vraag dan aan de user om een ander nummer in te vullen.
-            if(number > 100) {
-                Console.WriteLine("Geen geldig nummer! : Je vulde het getal {0} in " , number);
+                    } 
 
-                // We loopen door het maximTrails, als het resultaat nog altijd niet juist is dan stellen we de vraag opnieuw. 
-                for (int j = 0; j < maximTrials; j++) {
-                    Console.WriteLine("Vul een ander nummer in!: ");
-                    number = Convert.ToInt32(Console.ReadLine());
-
-                    // Als het nummer dan kleiner is dan nul stopt de for loop en gaan we gewoon verder.
-                if(number < 100) {
-                    break;
-                }
-            }   
-            
-            // Als het nummer tussen 0 en 100 is wordt het volgende uitgevoerd.
-            } else {
-                Console.WriteLine("Het nummer dat je invulde was: {0} ", number);
-            }
-
-            // We write a break
-            Console.WriteLine();
-            
-                // We doen number - 1 want als we het getal number zouden doen dan zou het nummer altijd deelbaar zijn door zichzelf.
-                for(int i = 2; i <= number - 1; i++) {
-
-                // Als het nummer geen priemgetal is dan zetten we boolPrimeNumber gelijk aan true en stoppen we de loop.
-                if(number % i == 0) {
-                    Console.WriteLine("Geldig nummer! Het getal: {0} is geen priemgetal ", number);
-                    boolPrimeNumber = true;
-                    break;
-                    }
-                }       
-    
-                // Als boolPrimeNumber false is dan zijn we zeker dat het geen priemgetal is dus is het WEL een priemgetal.
-                if(boolPrimeNumber == false) {       
-                    Console.WriteLine("Geldig nummer! Het getal: {0} is een priemgetal ", number);
-                }  
-            }
+                    else {
+                        // Uitzondering voor het getal 1
+                        if (i == 1) {
+                                Console.WriteLine(i + " is geen priemgetal");
+                        } else { 
+                                Console.WriteLine(i + " is een priemgetal.");
+                        }
+                    }   
+                } 
+        }  
 
         /* Oefening 2 */
-        private static void uitvoerenFibonacci() {
+            private static void uitvoerenFibonacci() {
 
-        }
+                Console.WriteLine("Vul de lengte in van de sequence");
+                int number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("De lengte die je invulde was {0}", number);
 
+                Console.WriteLine();
 
+                int x = 0;
+                int y = 1;
+                
+                for(int i = 0; i < number; i++) {
+                    int z = x + y;
+                    Console.WriteLine(z); 
+                    x = y;
+                    y = z;
+                }
+            } 
         }
     }
 
