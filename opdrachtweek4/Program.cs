@@ -22,6 +22,7 @@ namespace opdrachtweek4
                 bool correctNumber = false;
                 int number;
 
+
                 // Do while loop om een getal onder 100 op te vragen, zodat we geen verkeerde input kunnen geven
                 
                 // Doe dit allemaal zolang de boolean correctNumber = false.
