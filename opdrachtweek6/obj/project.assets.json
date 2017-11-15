@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek5\\opdrachtweek5.csproj",
+      "projectUniqueName": "D:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek6\\opdrachtweek5.csproj",
       "projectName": "opdrachtweek5",
-      "projectPath": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek5\\opdrachtweek5.csproj",
+      "projectPath": "D:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek6\\opdrachtweek5.csproj",
       "packagesPath": "C:\\Users\\jensr\\.nuget\\packages\\",
-      "outputPath": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek5\\obj\\",
+      "outputPath": "D:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

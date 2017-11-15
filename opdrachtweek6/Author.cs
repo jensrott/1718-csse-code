@@ -4,9 +4,14 @@ using System.Collections.Generic;
 
 namespace opdrachtweek5
 {
-   public class Author
+   public class Author : Books
     {
-        static void Main(string[] args)
+        public string name;
+        public string email;
+
+        public char gender;
+
+        static void Mainnn(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
