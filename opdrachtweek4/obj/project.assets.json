@@ -670,22 +670,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\opdrachtweek4.csproj",
+      "projectUniqueName": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\opdrachtweek4.csproj",
       "projectName": "opdrachtweek4",
-      "projectPath": "c:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\opdrachtweek4.csproj",
+      "projectPath": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\opdrachtweek4.csproj",
       "packagesPath": "C:\\Users\\jensr\\.nuget\\packages\\",
-      "outputPath": "c:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\obj\\",
+      "outputPath": "d:\\School\\schooljaar_2017_2018\\1ste_semester\\CSSE\\oefeningen\\1718-csse-code\\opdrachtweek4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\jensr\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jensr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
