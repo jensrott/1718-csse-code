@@ -4,24 +4,25 @@ using System.Collections.Generic;
 
 namespace opdrachtweek5
 {
-    public class Books
+    public class Book
         
     {
 
-        public string _name;
-        public Author _author;
-        public double _price;
-        public int _qtyInStock = 0;
+        private string _name;
+        private Author _author;
+        private double _price;
+        private int _qtyInStock = 0;
 
         private List<Author> _authors;
- 
-        public void Book(string name, Author author, double price, int qtyInStock) 
+
+        public Book(string name, Author author, double price, int qtyInStock)
         {
             this._name = name;
             this._author = author;
             this._price = price;
             this._qtyInStock = qtyInStock;
-        } 
+        }
+ 
 
         public string getName() 
         {
@@ -55,19 +56,12 @@ namespace opdrachtweek5
 
         public string getAuthorName()
         {
-            return _name;
+            return _author._name;
         }
 
         public void print() 
         {
-            Console.WriteLine("book: {0}, {1}, {2} In Stock {3}", this._name, this._author, this._price, this._qtyInStock);
-        }
-
-        
-        static void Mainn(string[] args)
-        {
-            Books books = new Books();
-            books.print();
+            Console.WriteLine("Book-Name: {0} , Author: {1}, Price: {2} , In Stock: {3}", this._name, this._author, this._price, this._qtyInStock);
         }
     }
 }

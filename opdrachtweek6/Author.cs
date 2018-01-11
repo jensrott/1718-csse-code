@@ -4,24 +4,23 @@ using System.Collections.Generic;
 
 namespace opdrachtweek5
 {
-   public class Author : Books
+   public class Author : Book
     {
-        public string name;
-        public string email;
+        private string name;
+        private string email;
+        private char gender;
 
-        public char gender;
-
-        static void Mainnn(string[] args)
+        /* 
+        public Author(string Name, string Email, char Gender)
         {
-            Console.WriteLine("Hello World!");
-        }
+            this.name = Name;
+            this.email = Email;
+            this.gender = Gender;
+        } 
+        */
+        
+        
     }
 }
 
-/* 
-public Author
-{
-    private string name;
-    private string email;
-    private char gender;
-} */
+ 

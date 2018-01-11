@@ -8,7 +8,8 @@ namespace week07
         // We moeten deze methods/members nog aanmaken
 
         void activateAccount();
-        void generatePassword();
-        void getAccountInfo();
+        string generatePassword();
+        string getAccountInfo();
     }
+
 }

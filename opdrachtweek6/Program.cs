@@ -6,7 +6,11 @@ namespace opdrachtweek5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Author author = new Author();
+            // Author werkt nog niet
+            author.getAuthor();
+            Book book = new Book("Harry Potter", author, 25, 40);
+            book.print();
         }
     }
 }

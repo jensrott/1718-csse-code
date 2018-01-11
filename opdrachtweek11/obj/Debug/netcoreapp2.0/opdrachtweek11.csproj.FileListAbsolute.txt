@@ -1,0 +1,10 @@
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\bin\Debug\netcoreapp2.0\opdrachtweek11.deps.json
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\bin\Debug\netcoreapp2.0\opdrachtweek11.runtimeconfig.json
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\bin\Debug\netcoreapp2.0\opdrachtweek11.runtimeconfig.dev.json
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\bin\Debug\netcoreapp2.0\opdrachtweek11.dll
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\bin\Debug\netcoreapp2.0\opdrachtweek11.pdb
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\obj\Debug\netcoreapp2.0\opdrachtweek11.csproj.CoreCompileInputs.cache
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\obj\Debug\netcoreapp2.0\opdrachtweek11.AssemblyInfoInputs.cache
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\obj\Debug\netcoreapp2.0\opdrachtweek11.AssemblyInfo.cs
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\obj\Debug\netcoreapp2.0\opdrachtweek11.dll
+D:\School\schooljaar_2017_2018\1ste_semester\CSSE\oefeningen\1718-csse-code\opdrachtweek11\obj\Debug\netcoreapp2.0\opdrachtweek11.pdb

@@ -17,7 +17,6 @@ namespace opdrachtweek9.account
             // Hier hetzelfde ik wil de account info van activateAccount hier in krijgen.
             Console.WriteLine(accountProxy.getAccountInfo("jens", "passwoord"));
 
-            
         }
     }
 
